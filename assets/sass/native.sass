@@ -1,7 +1,10 @@
-body
-  height: 100%
+html
   background: #18144b url('../img/tvshow_1400x933.jpg') no-repeat
   background-size: cover
+
+body
+  margin: 0
+  padding: 0
   text-align: center
 
 body, h1, h2, h3, h4, h5, h6, p, input, button
@@ -20,14 +23,25 @@ input
   box-sizing: border-box
   border: 1px solid #666
 
+input:focus
+  color: #FFF
+  border: 1px solid #FFF
+
 button
   display: inline-block
   padding: 10px 25px
   background: #923a55
   color: #f1f1f1
   border: 0
+  cursor: pointer
+
+button:hover
+  background: #b62f58
 
 input, button
   border-radius: 4px
   -webkit-border-radius: 4px
   -moz-border-radius: 4px
+
+input:focus, button:focus
+  outline: 0

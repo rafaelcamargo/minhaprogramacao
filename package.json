@@ -1,0 +1,15 @@
+{
+  "name": "seer",
+  "version": "0.1.0",
+  "description": "Be notified when some show of your interest is gonna be broadcasted",
+  "author": "Rafael Camargo <contato@rafaelcamargo.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaelcamargo/seer"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-http-server": "^1.2.0",
+    "grunt-sass": "^1.0.0"
+  }
+}
